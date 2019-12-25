@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c8772ff-fb49-48e9-bddc-722b29acf832" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Classes/out/production/Classes/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/out/production/Classes/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Classes/out/production/Classes/com/company/Profile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/out/production/Classes/com/company/Profile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Classes/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Classes/src/com/company/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes/src/com/company/Profile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/company/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/company/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +80,7 @@
       <updated>1576843313893</updated>
       <workItem from="1576843317872" duration="1712000" />
       <workItem from="1577290169716" duration="204000" />
-      <workItem from="1577290402759" duration="263000" />
+      <workItem from="1577290402759" duration="7487000" />
     </task>
     <servers />
   </component>

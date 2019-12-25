@@ -4,18 +4,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        LinkedList newList = new LinkedList();
-        newList.element = 5;
-        LinkedList newList1 = new LinkedList();
-        newList1.element = 9;
-        LinkedList newList2 = new LinkedList();
-        newList2.element = 15;
+        LinkedList newList = new LinkedList(5);
+        newList.add(7);
+        newList.add(10);
+        newList.add(45);
 
-        newList.nextElement = newList1;
-        newList1.nextElement = newList2;
+        newList.print();
 
-        System.out.println(newList.element);
-        System.out.println(newList1.element);
-        System.out.println(newList2.element);;
     }
 }
