@@ -29,8 +29,8 @@ public class Main {
 
         newProfile1.printProfile();
 
-        System.out.println("result of compare : " + newUser.compare(newUser1));
-        //System.out.println("result of compare : " + newProfile.compare(newProfile1));
+        //System.out.println("result of compare : " + newUser.compare(newUser1));
+        System.out.println("result of compare : " + newProfile.equals(newProfile));
 
     }
 }

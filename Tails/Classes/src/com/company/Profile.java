@@ -55,6 +55,11 @@ public class Profile {
         return false;
     }
 
+    public boolean equals(Object object)
+    {
+        return (this == object);
+    }
+
     public void printProfile()
     {
         System.out.println("Print profile:");
