@@ -2,43 +2,53 @@ package com.company;
 
 public class LinkedList {
 
-    public int element;
-    public LinkedList nextElement;
+    public Node node;
+
+    public class Node {
+
+        public int element;
+        public Node nextElement;
+
+        public Node(int el)
+        {
+            Node curr = this;
+
+            if(curr.nextElement == null)
+            {
+                this.element = el;
+            }
+            else
+            {
+                while(curr.nextElement != null)
+                {
+                    curr = curr.nextElement;
+                }
+
+                curr.nextElement.element = el;
+            }
+        }
+    }
 
     public LinkedList(int el)
     {
-        LinkedList curr = this;
-
-        if(curr.nextElement == null)
-        {
-            this.element = el;
-        }
-        else
-        {
-            while(curr.nextElement != null)
-            {
-                curr = curr.nextElement;
-            }
-
-            curr.nextElement.element = el;
-        }
+        this.node = new Node(el);
     }
 
     public void add(int el)
     {
-        LinkedList curr = this;
+        Node curr = this.node;
 
         while(curr.nextElement != null)
         {
             curr = curr.nextElement;
         }
 
-        curr.nextElement = new LinkedList(el);
+        curr.nextElement = new Node(el);
     }
 
     public int size()
     {
-        LinkedList curr = this;
+        Node curr = this.node;
         int size = 1;
 
         while(curr.nextElement != null)
@@ -52,7 +62,7 @@ public class LinkedList {
 
     public void print()
     {
-        LinkedList curr = this;
+        Node curr = this.node;
 
         for(int i = 0; i < this.size(); i++)
         {

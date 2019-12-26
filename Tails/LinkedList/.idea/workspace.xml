@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6c8772ff-fb49-48e9-bddc-722b29acf832" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/company/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/company/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
@@ -80,7 +78,8 @@
       <updated>1576843313893</updated>
       <workItem from="1576843317872" duration="1712000" />
       <workItem from="1577290169716" duration="204000" />
-      <workItem from="1577290402759" duration="7487000" />
+      <workItem from="1577290402759" duration="8087000" />
+      <workItem from="1577371431007" duration="714000" />
     </task>
     <servers />
   </component>
