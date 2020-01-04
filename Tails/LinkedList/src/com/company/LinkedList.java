@@ -1,19 +1,20 @@
 package com.company;
 
-public class LinkedList {
+public class LinkedList implements Printable{
 
     private Node Head;
     private int size = 0;
 
-    private static class Node {
+    private class Node {
 
         private int element;
         private Node nextElement;
         private int index;
 
-        private Node(LinkedList list, int el)
+        private Node(int el)
         {
             Node curr = this;
+            LinkedList list = LinkedList.this;
 
             if(curr.nextElement == null)
             {
@@ -35,19 +36,19 @@ public class LinkedList {
 
     public LinkedList(int el)
     {
-        this.Head = new Node(this, el);
+        this.Head = new Node(el);
         this.size++;
     }
 
     public LinkedList(){}
 
-    public void add(int el)
+    public void append(int el)
     {
         Node curr = this.Head;
 
         if(curr == null)
         {
-            this.Head = new Node(this, el);
+            this.Head = new Node(el);
             this.size++;
 
             return;
@@ -58,18 +59,18 @@ public class LinkedList {
             curr = curr.nextElement;
         }
 
-        curr.nextElement = new Node(this, el);
+        curr.nextElement = new Node(el);
         curr.nextElement.index = this.size;
         this.size++;
     }
 
-    public void addViaIndex(int index, int el)
+    public void append(int index, int el)
     {
         Node curr = this.Head;
         Node firstPart, secondPart;
 
         //exception index < 0 and index > size
-        if(index > this.size() || index < 0)
+        if(index > this.size || index < 0)
         {
             System.out.println("Incorrect index!");
             return;
@@ -77,7 +78,7 @@ public class LinkedList {
         //exception index = 0
         if(index == 0)
         {
-            Node base = new Node(this, el);
+            Node base = new Node(el);
             base.nextElement = curr;
             base.index = 0;
 
@@ -113,21 +114,21 @@ public class LinkedList {
         }
 
         //collect 2 parts
-        firstPart = curr.nextElement = new Node(this, el);;
+        firstPart = curr.nextElement = new Node(el);;
         firstPart.index = index;
         firstPart.nextElement = secondPart;
 
         this.size++;
     }
 
-    public void deleteViaIndex(int index)
+    public void delete(int index)
     {
         Node curr = this.Head;
         Node firstPart, secondPart;
         Node temp;
 
         //exception index < 0 and index > size
-        if(index > this.size() - 1 || index < 0)
+        if(index > this.size - 1 || index < 0)
         {
             System.out.println("Incorrect index!");
             return;
@@ -199,7 +200,7 @@ public class LinkedList {
         return curr;
     }
 
-    public int size()
+    public int getSize()
     {
         return this.size;
     }
@@ -208,7 +209,7 @@ public class LinkedList {
     {
         Node curr = this.Head;
 
-        for(int i = 0; i < this.size(); i++)
+        for(int i = 0; i < this.size; i++)
         {
             System.out.println(curr + " " + curr.index + " " +  curr.element);
             curr = curr.nextElement;

@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c8772ff-fb49-48e9-bddc-722b29acf832" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Printable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/company/LinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/company/LinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/company/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/company/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList&amp;ArrayList.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/company/LinkedList$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/company/LinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/company/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/company/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
@@ -19,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -55,7 +61,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="LinkedList" />
+      <module name="LinkedList&amp;ArrayList" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -86,7 +92,8 @@
       <workItem from="1577559464234" duration="6785000" />
       <workItem from="1577566556323" duration="300000" />
       <workItem from="1577567343942" duration="906000" />
-      <workItem from="1577610081383" duration="3246000" />
+      <workItem from="1577610081383" duration="3849000" />
+      <workItem from="1578127337290" duration="12290000" />
     </task>
     <servers />
   </component>
